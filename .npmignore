@@ -1,0 +1,27 @@
+Makefile
+README.md
+build/
+docs/
+examples/
+reports/
+support/
+test/
+
+# Node.js
+.npmignore
+node_modules/
+npm-debug.log
+
+# Mac OS X
+.DS_Store
+
+# Git
+.git*
+
+# Utilities
+.jshintrc
+.eslintrc.js
+.travis.yml
+
+# Yarn
+yarn.lock

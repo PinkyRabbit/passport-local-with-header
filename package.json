@@ -1,16 +1,18 @@
 {
   "name": "@pinkyrabbit/passport-local-with-header",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Passport-local strategy with header validation for SaaS solutions",
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["passport"],
+  "keywords": [
+    "passport"
+  ],
   "author": {
-    "name" : "Mikita Melnikau",
-    "email" : "usesa@yandex.com",
-    "url" : "https://www.hack-it-up.ru/"
+    "name": "Mikita Melnikau",
+    "email": "usesa@yandex.com",
+    "url": "https://www.hack-it-up.ru/"
   },
   "repository": {
     "type": "git",
@@ -32,5 +34,9 @@
   "dependencies": {
     "passport-strategy": "1.x.x"
   },
-  "public": true
+  "public": true,
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
 }
