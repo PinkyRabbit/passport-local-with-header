@@ -2,7 +2,7 @@
   "name": "@pinkyrabbit/passport-local-with-header",
   "version": "0.0.1",
   "description": "Passport-local strategy with header validation for SaaS solutions",
-  "main": "index.js",
+  "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,25 @@
     "email" : "usesa@yandex.com",
     "url" : "https://www.hack-it-up.ru/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/PinkyRabbit/passport-local-with-header.git"
+  },
+  "bugs": {
+    "url": "http://github.com/PinkyRabbit/passport-local-with-header/issues"
+  },
   "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
   "public": true
 }
