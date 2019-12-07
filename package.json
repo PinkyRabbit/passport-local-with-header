@@ -1,6 +1,6 @@
 {
   "name": "@pinkyrabbit/passport-local-with-header",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Passport-local strategy with headers validation for SaaS solutions",
   "main": "./lib",
   "scripts": {
