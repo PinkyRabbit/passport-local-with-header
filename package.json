@@ -1,7 +1,7 @@
 {
   "name": "@pinkyrabbit/passport-local-with-header",
-  "version": "0.0.2",
-  "description": "Passport-local strategy with header validation for SaaS solutions",
+  "version": "0.0.3",
+  "description": "Passport-local strategy with headers validation for SaaS solutions",
   "main": "./lib",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,8 +35,5 @@
     "passport-strategy": "1.x.x"
   },
   "public": true,
-  "devDependencies": {
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
-  }
+  "devDependencies": {}
 }
